@@ -1,5 +1,6 @@
+import os
 from groq import Groq
-clinet = Groq(api_key="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")
+clinet = Groq(api_key=os.environ.get("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"))
 response = clinet.chat.completions.create(
     model="llama-3.3-70b-versatile",
     messages=[
