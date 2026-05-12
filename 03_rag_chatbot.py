@@ -18,7 +18,7 @@ if uploaded_file:
         chunks = splitter.split_documents(documents)
         embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
         vectorstore = Chroma.from_documents(chunks, embeddings)
-        st.success("Document processed successfully!")
+        st.success("Document processed successfully! f{len(chunks)} chunks created.")
         question = st.text_input("Ask a question about the document:")
         if question:
             docs = vectorstore.similarity_search(question, k=3)
