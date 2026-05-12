@@ -5,7 +5,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
-client = Groq(api_key=os.environ.get("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"))
+client = Groq(api_key=os.environ.get("Groq_API_Key"))
 st.title("AI Document Assistant")
 st.write(("Upload a PDF document and ask questions about its content!"))
 uploaded_file = st.file_uploader("Choose a PDF file", type="pdf")
