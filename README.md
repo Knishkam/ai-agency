@@ -1,19 +1,13 @@
 # AI Agency — Shivam Shukla
 
 ## Projects
+- SQL AI Agent
+- RAG Chatbot
+- Memory Chatbot  
+- Excel AI Agent
 
-### 01 - Hello AI
-First AI project using Groq API and LLaMA model.
+## Learning
+Check: github.com/Knishkam/python-training-90-days
 
-### 02 - Memory Chatbot
-AI chatbot that remembers conversation history.
-
-## Tech Stack
-- Python
-- Groq API
-- LangChain
-- LLaMA 3.3
-
-## About
-AI Automation Developer building intelligent 
-systems for businesses.
+## Hire Me
+Email: shivamshukla111111@gmail.com
