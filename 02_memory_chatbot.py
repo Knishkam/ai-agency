@@ -1,6 +1,8 @@
 import os
 from groq import Groq
-client = Groq(api_key=os.environ.get("Groq_API_Key"))
+from dotenv import load_dotenv
+load_dotenv()
+client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 messages = []
 print("chatbot ready! 'quit' likho band krne ke liye\n")
 while True: 

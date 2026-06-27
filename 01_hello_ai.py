@@ -1,6 +1,6 @@
 import os
 from groq import Groq
-clinet = Groq(api_key=os.environ.get("Groq_API_Key"))
+clinet = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 response = clinet.chat.completions.create(
     model="llama-3.3-70b-versatile",
     messages=[
